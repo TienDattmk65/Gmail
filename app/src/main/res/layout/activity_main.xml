@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#CC4E3F"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/menu_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/menu_icon"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            tools:ignore="InvalidId">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/inbox_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Inbox"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold">
+        </TextView>
+        <ImageView
+            android:id="@+id/search_icon"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:src="@drawable/search_icon"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="150dp">
+        </ImageView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/menu_icon2"
+        android:layout_width="85dp"
+        android:layout_height="84dp"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="-100dp"
+        android:src="@mipmap/image_icon"
+        tools:ignore="InvalidId">
+
+    </ImageView>
+
+
+</LinearLayout>
